@@ -1360,6 +1360,7 @@ span {
   display: inline-block;
   font-size: 16px;
   letter-spacing: -0.3px;
+  text-transform: none;
 }
 
 .footer .icon-box {
@@ -1371,8 +1372,15 @@ span {
 .footer svg {
   max-width: 20px;
   height: 18px;
-  margin: auto 9px;
   fill: white;
+}
+
+.footer a {
+  margin: auto 9px;
+}
+
+.footer a:hover svg {
+  fill: #1085e4;
 }
 
 .footer svg:last-child {
