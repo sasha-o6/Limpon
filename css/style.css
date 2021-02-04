@@ -211,7 +211,6 @@ button:focus {
   background-repeat: no-repeat;
   bottom: 13vh;
   right: 0;
-  z-index: -1;
 }
 
 .header .img img {
