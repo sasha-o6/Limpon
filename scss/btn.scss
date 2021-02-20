@@ -1,0 +1,33 @@
+@import "var";
+.btn {
+    margin: 0 8px;
+    padding: 21px 37px;
+    border-radius: 35px;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: $btn-color;
+    background-color: $btn-background;
+    border: 2px solid $btn-background;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none !important;
+    transition: $transition;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: $btn-primary-color;
+    background-color: $btn-primary-background;
+    border-color: $btn-primary-background;
+}
+
+.btn:hover {
+    transition: $transition;
+    background-color: transparent;
+}
+
+.btn-primary:hover {
+    color: $btn-primary-background;
+}

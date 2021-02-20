@@ -1,0 +1,21 @@
+@import "var";
+::-webkit-scrollbar {
+    width: 0.6rem;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0.1rem #7e8bae;
+}
+::-webkit-scrollbar-track:hover {
+    box-shadow: inset 0 0 0.5rem #7e8bae;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 70px;
+    background: #cbdbe8;
+}
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 0.6rem #0f84f5;
+}
+
+::placeholder {
+    color: $placeholder-color;
+}

@@ -22,30 +22,6 @@
           box-shadow: inset 0 0 0.6rem #0f84f5;
 }
 
-body,
-a {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #6e7ea9;
-  font-family: "Open Sans", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  outline: none;
-}
-
-input:focus,
-button:focus {
-  outline: none;
-}
-
 ::-webkit-input-placeholder {
   color: #b1c3ee;
 }
@@ -60,11 +36,6 @@ button:focus {
 
 ::placeholder {
   color: #b1c3ee;
-}
-
-.container {
-  width: 70%;
-  margin: 0 auto;
 }
 
 .btn {
@@ -102,16 +73,45 @@ button:focus {
   color: #1085e4;
 }
 
+body,
+a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #6e7ea9;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover,
+a:focus {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .header {
   background-image: url(../img/header/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 25px;
   position: relative;
-}
-
-.header .btn a {
-  color: #7e8bae;
 }
 
 .header .container {
@@ -122,6 +122,10 @@ button:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.header .btn a {
+  color: #7e8bae;
 }
 
 .logo {
@@ -1336,7 +1340,6 @@ span {
 .submit-page .message svg {
   position: absolute;
   height: 15px;
-  fill: #8995b3;
   top: calc(50% - 6.5px);
   right: 7%;
 }
@@ -1378,7 +1381,6 @@ span {
 .submit-page .telegram {
   height: 10px;
   margin: 0 5px;
-  fill: white;
 }
 
 .submit-page .btn:hover svg {
@@ -1419,6 +1421,14 @@ span {
   font-size: 16px;
   letter-spacing: -0.3px;
   text-transform: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer span:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #fff;
 }
 
 .footer .icon-box {
@@ -1430,15 +1440,12 @@ span {
 .footer svg {
   max-width: 20px;
   height: 18px;
-  fill: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .footer a {
   margin: auto 9px;
-}
-
-.footer a:hover svg {
-  fill: #1085e4;
 }
 
 .footer svg:last-child {
@@ -1516,8 +1523,9 @@ span {
 }
 
 .btn-nav svg {
-  fill: #1085e4;
   height: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .fixed {
@@ -1634,7 +1642,7 @@ span {
   .angels {
     font-weight: 800;
     margin: 0 !important;
-    padding: 60px  0;
+    padding: 60px 0;
   }
   .angels h1 {
     color: #192b59;

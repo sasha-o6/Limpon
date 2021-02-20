@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0.1rem #7e8bae;
+          box-shadow: inset 0 0 0.1rem #7e8bae;
+}
+
+::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 0 0 0.5rem #7e8bae;
+          box-shadow: inset 0 0 0.5rem #7e8bae;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 70px;
+  background: #cbdbe8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 0 0 0.6rem #0f84f5;
+          box-shadow: inset 0 0 0.6rem #0f84f5;
+}
+
+::-webkit-input-placeholder {
+  color: #b1c3ee;
+}
+
+:-ms-input-placeholder {
+  color: #b1c3ee;
+}
+
+::-ms-input-placeholder {
+  color: #b1c3ee;
+}
+
+::placeholder {
+  color: #b1c3ee;
+}
